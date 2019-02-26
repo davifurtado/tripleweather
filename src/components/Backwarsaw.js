@@ -5,7 +5,7 @@ class Backwarsaw extends React.Component {
 	render() {
 		return (
 			<div className="button">				
-				<form onClick={this.props.getWeatherManchester}>
+				<form>
 					<NavLink to="/manchester">Retornar (Manchester) </NavLink>
 				</form>					
 			</div>

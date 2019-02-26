@@ -23,6 +23,7 @@ code {
   align-items: center;
 }
 .container {
+  padding: 5px;
   cursor: pointer;
   border-radius:4px;
   border:1px solid black;

@@ -5,7 +5,7 @@ class Backmanchester extends React.Component {
 	render() {
 		return (
 			<div className="button">				
-				<form onClick={this.props.getWeatherLondon}>
+				<form>
 					<NavLink to="/">Retornar (London) </NavLink>
 				</form>					
 			</div>
