@@ -4,12 +4,10 @@ import { NavLink } from 'react-router-dom';
 class Backwarsaw extends React.Component {
 	render() {
 		return (
-			<div className="button">
-				<button>				
+			<div className="button">							
 					<form>
 						<NavLink to="/manchester">Retornar (Manchester) </NavLink>
-					</form>		
-				</button>			
+					</form>							
 			</div>
 		);
 	}

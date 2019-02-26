@@ -4,12 +4,10 @@ import { NavLink } from 'react-router-dom';
 class manchesterWeather extends React.Component {
 	render() {
 		return (
-			<div className="button">
-				<button>				
+			<div className="button">								
 				<form >
 					<NavLink to="/warsaw">Próximo (Warsaw) </NavLink>
-				</form>	
-				</button>
+				</form>					
 			</div>
 		);
 	}
