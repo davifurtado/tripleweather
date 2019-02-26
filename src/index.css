@@ -53,10 +53,6 @@ code {
   justify-content: left;  
 }
 
-.button2 {
- 
-}
-
 @media only screen and (max-width: 400px) {
   body {
     background-color: white
@@ -65,5 +61,4 @@ code {
     border-radius: 0px;
     border: 0px;
   }
-
 }
