@@ -8,7 +8,7 @@ import Warsaw from './components/Warsaw.js';
 import Backwarsaw from './components/Backwarsaw.js';
 
 
-const API_KEY = "6a52b66a952a9c69db563a5172dd7eff";
+const API_KEY = "25da215c731956fb73b2bcb39cbce924";
 
 class App extends React.Component {
   state = {

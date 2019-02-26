@@ -3,14 +3,16 @@ import { NavLink } from 'react-router-dom';
 
 class warsawWeather extends React.Component {
 	render() {
-		return (
-			this.props.getWeather("Warsaw,PL"),
+		return (			
 			<div className="button">				
 				<form>
 					<NavLink to="/">Próximo (London) </NavLink>
 				</form>					
 			</div>
 		);
+	}
+	componentDidMount(city) {
+		this.props.getWeather("Warsaw,PL");
 	}
 };
 
