@@ -9,14 +9,10 @@ Batizei o app de tripleweather
 - Cada cidade possui o seu próprio domain. Utilizei o react-router-dom para isto
 - Usei a API do OpenWeatherMap e o 'fetch' do próprio JavaScript (não julguei necessário a utilização de uma biblioteca para esta tarefa por ser uma aplicação pequena). Não possuía API de horário local, portanto quando refatorar o código, vou implementar horário local e a timezone através de uma função, ou buscar a informação correta de uma API de hora local.
 
-As falhas do aplicativo:
-- Utilizei o componentDidMount dando trigger na função de buscar os dados da primeira cidade. Sendo assim, ao dar refresh, mesmo estando em outra url, carrega as informações de Londres.
-- o NavLink para as outras url's deve ser um botão. 
-
 Melhorias:
 - adicionar uma imagem característica de plano de fundo para cada cidade. 
 - adicionar uma aba para escolher a cidade utilizando uma API com valores dinâmicos.
 
 Features:
 - Layout totalmente responsivo.
-- Ao abrir em um dispositivo com uma tela menor que 400px o "card" se funde com o plano de fundo, dando a impressão de ser um componente só.
+- Ao abrir em um dispositivo com uma tela menor (ou diminuir o tamanho da janela do browser) que 400px o "card" se funde com o plano de fundo, dando a impressão de ser um componente só.
