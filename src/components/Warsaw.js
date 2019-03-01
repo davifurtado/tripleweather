@@ -12,6 +12,7 @@ class warsawWeather extends React.Component {
 	componentDidMount(city) {
 		this.props.getWeather("Warsaw,PL");
 		document.getElementsByClassName('main-grid')[0].style.backgroundImage = "url(./warsaw_background.jpg)";
+	
 	}
 };
 

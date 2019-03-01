@@ -13,6 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 .main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;   
@@ -28,6 +29,7 @@ code {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .container {
   max-width: 300px;
   height: 400px;
@@ -38,13 +40,13 @@ code {
   display: grid;  
   text-align: center;    
   background-color: white;
-  opacity: 0.5;
+  opacity: 0.75;
   transition: 0.6s ease-in-out;
 }
 
 .container:hover {
   transform: scale(1.1);
-  opacity: 0.96;
+  opacity: 0.94;
   transition: all 0.6s ease-in-out;
 }
 

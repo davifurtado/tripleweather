@@ -27,9 +27,9 @@ class App extends React.Component {
        await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`);
     const data = await api_call_london.json();  
     this.setState({
-      temp: data.main.temp,
-      temp_max: data.main.temp_max,
-      temp_min: data.main.temp_min,
+      temp: data.main.temp.toFixed(0),
+      temp_max: data.main.temp_max.toFixed(0),
+      temp_min: data.main.temp_min.toFixed(0),
       city: data.name,
       country: data.sys.country,
       humidity: data.main.humidity,      
@@ -56,9 +56,9 @@ class App extends React.Component {
             />
           </div>        
           <Switch> 
-            <Route className="london" exact path="/" render={props => <London getWeather={this.getWeather}/>} />           
-            <Route path="/Manchester" render={props => <Manchester getWeather={this.getWeather}/>} />
-            <Route className="london" path="/Warsaw" render={props => <Warsaw getWeather={this.getWeather}/>} />
+            <Route className="london" exact path="/" render={() => <London getWeather={this.getWeather}/>} />           
+            <Route path="/Manchester" render={() => <Manchester getWeather={this.getWeather}/>} />
+            <Route className="london" path="/Warsaw" render={() => <Warsaw getWeather={this.getWeather}/>} />
           </Switch>
         </div>
       </BrowserRouter>
