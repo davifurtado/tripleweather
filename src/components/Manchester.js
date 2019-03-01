@@ -11,6 +11,7 @@ class manchesterWeather extends React.Component {
 	}
 	componentDidMount(city) {
 		this.props.getWeather("Manchester,UK");
+		document.getElementsByClassName('main-grid')[0].style.backgroundImage = "url(./manchester_background.jpg)";
 	}
 };
 

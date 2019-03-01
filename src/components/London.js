@@ -10,7 +10,9 @@ class London extends React.Component {
 		);
 	}
 	componentDidMount(city) {
-		this.props.getWeather("London,UK");
+		this.props.getWeather("London,UK");	
+		document.getElementsByClassName('main-grid')[0].style.backgroundImage = "url(./london_background.jpg)";
+		
 	}						
 };
 
