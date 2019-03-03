@@ -5,7 +5,9 @@ class Weather extends React.Component {
 		return (
 			<div>
 				<p className="city">{ this.props.city }, { this.props.country }</p>
-				<p className="temp">{ this.props.temp } °C </p>
+				<div className="temp">
+					<p>{ this.props.temp } °C</p>					
+				</div>
 				<div className="tempMaxMin">
 					<div>
 						<p>Max</p>

@@ -32,6 +32,7 @@ code {
 .container {
   font-family: Roboto;
   max-width: 300px;
+  min-width: 300px;
   height: 400px;
   margin: 0 auto;
   padding: 5px;  
@@ -52,11 +53,11 @@ code {
 }
 
 .temp {
-  font-size: 35px;
+  font-size: 50px;
   font-weight: bold;
   background-color: #eee;
   border-radius: 5000px;  
-  width: 100px;
+  width: 200px;
   background-blend-mode: darken;  
   margin: 0 auto;
 }
