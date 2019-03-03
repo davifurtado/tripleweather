@@ -1,11 +1,9 @@
 import React from 'react';
-import London from './components/London.js';
-import Info from './components/Info.js';
-import Backmanchester from './components/Backmanchester.js';
+import Info from './components/Info';
+import Backmanchester from './components/Backmanchester';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Manchester from './components/Manchester.js';
-import Warsaw from './components/Warsaw.js';
-import Backwarsaw from './components/Backwarsaw.js';
+import Backwarsaw from './components/Backwarsaw';
+import { London, Manchester, Warsaw } from './components/City';
 
 
 const API_KEY = "25da215c731956fb73b2bcb39cbce924";
