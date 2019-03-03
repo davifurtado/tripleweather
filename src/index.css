@@ -32,7 +32,7 @@ code {
 .container {
   font-family: Roboto;
   max-width: 300px;
-  min-width: 300px;
+  min-width: 270px;
   height: 400px;
   margin: 0 auto;
   padding: 5px;  
