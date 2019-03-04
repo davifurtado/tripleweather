@@ -93,7 +93,7 @@ code {
 
 @media only screen and (max-width: 400px) {
   body {
-    background-color: white
+    background: '';    
   }
   .container{
     border-radius: 0px;

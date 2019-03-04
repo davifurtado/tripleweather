@@ -17,9 +17,7 @@ class App extends React.Component {
     country: '',
     humidity: '',    
   }
-  getTime = async => {
-    
-  }
+
   getWeather = async (city) => {      
       const api_call_london =
        await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`);
