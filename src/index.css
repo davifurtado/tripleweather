@@ -92,11 +92,12 @@ code {
 }
 
 @media only screen and (max-width: 400px) {
-  body {
-    background: '';    
-  }
+
   .container{
     border-radius: 0px;
     border: 0px;
   }
+  .main-grid {   
+    display: initial;
+  } 
 }
